@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#FFAB00",        // yellow accent
         },
         darkMode: {
-          light: "#091E42",      // DarkNeutral 100 – фон страницы
-          lightgray: "#1D2A3A",  // DarkNeutral 200 – панели
-          gray: "#253858",       // DarkNeutral 300 – границы
-          darkgray: "#7A869A",   // Neutral 400 – вторичный текст
-          dark: "#F4F5F7",       // Neutral 100 – основной светлый текст
-          secondary: "#4C9AFF",  // Blue 400 – ссылки
-          tertiary: "#7A869A",   // Neutral 400 – вспомогательное
-          highlight: "rgba(76,154,255,0.1)",   // blau highlight
-          textHighlight: "#FFAB00",            // жёлтый акцент
+          light: "#1E1E1E",      // фон страницы (глубокий серый)
+          lightgray: "#2A2A2E",  // панели, карточки
+          gray: "#3B3B41",       // границы, слабый фон
+          darkgray: "#A0A0A5",   // вторичный текст
+          dark: "#FFFFFF",       // основной текст
+          secondary: "#8AB4F8",  // ссылки (светло-синий на тёмном)
+          tertiary: "#CCCCCC",   // второстепенный текст
+          highlight: "rgba(255, 255, 255, 0.05)",  // фоновая подсветка
+          textHighlight: "#FFEB95",                // мягкий жёлтый акцент
         }
       },
     },
