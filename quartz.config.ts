@@ -29,15 +29,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFFFFF",      // Neutral 0 – фон страницы
-          lightgray: "#F4F5F7",  // Neutral 100 – панели, карточки
-          gray: "#DFE1E6",       // Neutral 200 – границы
-          darkgray: "#A5ADBA",   // Neutral 300 – вторичный текст
-          dark: "#172B4D",       // Neutral 900 – основной текст
-          secondary: "#0052CC",  // Blue 600 – ссылки, кнопки
-          tertiary: "#6B778C",   // Neutral 400 – второстепенное
-          highlight: "rgba(0,82,204,0.1)",  // blue highlight
-          textHighlight: "#FFAB00",        // yellow accent
+          light: "#FFFFFF",        // фон страницы
+          lightgray: "#F4F5F7",    // панели, карточки
+          gray: "#DFE1E6",         // границы
+          darkgray: "#6B778C",     // вторичный текст (теперь хорошо читаем)
+          dark: "#1C1E21",         // основной текст
+          secondary: "#0052CC",    // ссылки, кнопки
+          tertiary: "#5E6C84",     // второстепенное, немного темнее
+          highlight: "rgba(0,82,204,0.1)",
+          textHighlight: "#FFAB00",
         },
         darkMode: {
           light: "#1E1E1E",      // фон страницы (глубокий серый)
