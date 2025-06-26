@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fbf1c7",
-          lightgray: "#ebdbb2",
-          gray: "#d5c4a1",
-          darkgray: "#928374",
-          dark: "#3c3836",
-          secondary: "#458588",
-          tertiary: "#b16286",
-          highlight: "rgba(250, 189, 47, 0.15)",
-          textHighlight: "#fe801988",
+          light: "#FFFFFF",        // фон страницы
+          lightgray: "#F4F5F7",    // фон блоков и панелей
+          gray: "#DFE1E6",         // границы, разделители
+          darkgray: "#A5ADBA",     // вторичный текст
+          dark: "#172B4D",         // основной текст
+          secondary: "#0052CC",    // ссылки, активные элементы
+          tertiary: "#6B778C",     // второстепенные элементы
+          highlight: "rgba(0,82,204,0.1)",     // подсветка hover/selected
+          textHighlight: "#FFAB00",           // акцентный текст
         },
         darkMode: {
-          light: "#282828",
-          lightgray: "#3c3836",
-          gray: "#665c54",
-          darkgray: "#bdae93",
-          dark: "#fbf1c7",
-          secondary: "#83a598",
-          tertiary: "#d3869b",
-          highlight: "rgba(250, 189, 47, 0.15)",
-          textHighlight: "#fabd2f88",
+          light: "#091E42",        // фон страницы (тёмный)
+          lightgray: "#1D2A3A",    // фон панелей
+          gray: "#253858",         // разделители
+          darkgray: "#7A869A",     // вторичный текст
+          dark: "#F4F5F7",         // основной текст светлым
+          secondary: "#4C9AFF",    // ссылки/активные
+          tertiary: "#7A869A",     // второстепенные
+          highlight: "rgba(76,154,255,0.1)",  // hover подсветка
+          textHighlight: "#FFAB00",          // акцент
         },
       },
     },
