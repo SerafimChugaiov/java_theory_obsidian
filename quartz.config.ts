@@ -29,27 +29,27 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFFFFF",        // фон страницы
-          lightgray: "#F4F5F7",    // фон блоков и панелей
-          gray: "#DFE1E6",         // границы, разделители
-          darkgray: "#A5ADBA",     // вторичный текст
-          dark: "#172B4D",         // основной текст
-          secondary: "#0052CC",    // ссылки, активные элементы
-          tertiary: "#6B778C",     // второстепенные элементы
-          highlight: "rgba(0,82,204,0.1)",     // подсветка hover/selected
-          textHighlight: "#FFAB00",           // акцентный текст
+          light: "#FFFFFF",      // Neutral 0 – фон страницы
+          lightgray: "#F4F5F7",  // Neutral 100 – панели, карточки
+          gray: "#DFE1E6",       // Neutral 200 – границы
+          darkgray: "#A5ADBA",   // Neutral 300 – вторичный текст
+          dark: "#172B4D",       // Neutral 900 – основной текст
+          secondary: "#0052CC",  // Blue 600 – ссылки, кнопки
+          tertiary: "#6B778C",   // Neutral 400 – второстепенное
+          highlight: "rgba(0,82,204,0.1)",  // blue highlight
+          textHighlight: "#FFAB00",        // yellow accent
         },
         darkMode: {
-          light: "#091E42",        // фон страницы (тёмный)
-          lightgray: "#1D2A3A",    // фон панелей
-          gray: "#253858",         // разделители
-          darkgray: "#7A869A",     // вторичный текст
-          dark: "#F4F5F7",         // основной текст светлым
-          secondary: "#4C9AFF",    // ссылки/активные
-          tertiary: "#7A869A",     // второстепенные
-          highlight: "rgba(76,154,255,0.1)",  // hover подсветка
-          textHighlight: "#FFAB00",          // акцент
-        },
+          light: "#091E42",      // DarkNeutral 100 – фон страницы
+          lightgray: "#1D2A3A",  // DarkNeutral 200 – панели
+          gray: "#253858",       // DarkNeutral 300 – границы
+          darkgray: "#7A869A",   // Neutral 400 – вторичный текст
+          dark: "#F4F5F7",       // Neutral 100 – основной светлый текст
+          secondary: "#4C9AFF",  // Blue 400 – ссылки
+          tertiary: "#7A869A",   // Neutral 400 – вспомогательное
+          highlight: "rgba(76,154,255,0.1)",   // blau highlight
+          textHighlight: "#FFAB00",            // жёлтый акцент
+        }
       },
     },
   },
