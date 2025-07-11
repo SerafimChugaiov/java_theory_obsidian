@@ -5,8 +5,8 @@ tags: Java
 - [[Основы ООП]]
 - Ключевые слова:
 	- [[final java|final]]
-	- [[static java|static]]
-	- [[super java|super]]
+	- [[Static java|static]]
+	- [[Super java|super]]
 	- [[this Java|this]]
 - [[Переопределение Java|Переопределение метода]]
 - 
